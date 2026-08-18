@@ -17,8 +17,8 @@ import {
   Calendar,
   AlertTriangle
 } from 'lucide-react';
-
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://genbiz-tracker.onrender.com/api';
+//const API_BASE = 'http://localhost:5000/api';
 
 export default function App() {
   const [currentUser, setCurrentUser] = useState(null);
